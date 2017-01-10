@@ -1,27 +1,15 @@
-###Description
-Goal of this repo is to share/collect customer created/customized visualizations of MicroStrategy dashboards. MicroStrategy provides several out-of-box visulizations in our platform. Now, you can extend your visualization pool with more choices. MicroStrategy visualizations are based on JavaScript, so it is possible to create or adjust existing visualizations to fit the platform. Some great work such as [D3](https://github.com/mbostock/d3) makes it even more convenient.
+# Description
+###This repository has been **deprecated** from January 2017 and will be removed permanently later. Since Microstrategy has provided other places to share and collect independently created custom visualizations that can be used in MicroStrategy dashboards and documents.
 
-###How To Use
-Steps to use visualization plugins in this repo:
+##Custom Visualizations
+1. Public custom visualizations please refer to [Visualization Gallery](https://community.microstrategy.com/t5/Visualization-Library/bg-p/vizgallery). 
+2. Internal plugin repository please refer to [AnalyticsSDK Visualizations](https://github.microstrategy.com/AnalyticsSDK/Visualizations)
 
-1. Clone the repo and copy the visualization folders you like to `{Web folder}/plugins`,
-2. Restart the web server.
+##VisBuilder
+Installing the Visualization Builder please refer to [DEVELOP ZONE](https://lw.microstrategy.com/msdz/MSDL/_CurrentGARelease/docs/projects/VisSDK_All/default.htm#topics/HTML5/Installing the Visualization Builder.htm).
 
-Note: The visualizations in this branch are designed for MicroStrategy 10. They should work in Document Express/Interactive Mode(Web) and Visual Insight Dashboard(Web/Desktop). If you are looking for visualizations customized for MicroStrategy 9.4.1, please check the [9.4.1 branch](https://github.com/mstr-dev/Visualization-Plugins/tree/9.4.1).
+##MobileBase
+Get MobileBase plug-in please refer to [MSDZ](https://lw.microstrategy.com/msdz/MSDL/_CurrentGARelease/docs/projects/VisSDK_All/default.htm#topics/HTML5/Deploying_a_custom_visualization.htm). 
 
-###Create Customized Visualizations 
-You can follow the [introduction](https://lw.microstrategy.com/msdz/MSDL/10/docs/projects/VisSDK_All/default.htm#topics/HTML5/Creating_an_HTML5_visualization.htm) to create a new customized visualization.
-
-###Sharing Your Visualizations
-Sharing your visualizations is highly encouraged. We would appreciate your contribution to the MicroStrategy community.
-
-Steps to share:
-
-1. Fork this repo and clone it in your PC.
-2. Add your visualization or fix issues.
-3. Send a pull request.
-
-###License of Visualizations
-For all the Custom Visualizations submitted to this GitHub Repository, we assume that they are aligned to the open source principle and allowed to share to the MSTR community. If you have a specific license statement, please put it at the beginning of your Visualization JavaScript code. 
-
-For more info, please refer to the [Wiki Site](https://github.com/mstr-dev/Visualization-Plugins/wiki).
+#License
+The MicroStrategy Visualizations Sites terms and conditions at [http://www.microstrategy.com/us/licensing](http://www.microstrategy.com/us/licensing) apply to your access and use of this site.
